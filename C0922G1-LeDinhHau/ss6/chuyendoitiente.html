@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .a {
+        display: flex;
+        gap: 5%;
+    }
+</style>
+<body>
+<div class="a">
+<div>
+
+   <div> <label> amount</label> </div>
+    <input type="number" id="giatien">
+
+</div>
+<div>
+
+   <div> <label>From Currency</label> </div>
+    <select name="number" id="From">
+        <option value="1">VND</option>
+        <option value="23000">USD</option>
+    </select>
+
+</div>
+<div>
+
+    <div><label>To Currency</label></div>
+    <select name="number" id="To">
+        <option value="1">VND</option>
+        <option value="0.00004347826086956522">USD</option>
+    </select>
+
+</div><button onclick="Convert()">convert</button>
+</div>
+ <p id="money"></p>
+<div>
+
+</div>
+<script>
+    function Convert() {
+        let a= document.getElementById("giatien").value;
+        let b= document.getElementById("From").value;
+        let c= document.getElementById("To").value;
+        let d = (a * b * c);
+        if(c==1 ) {
+            document.getElementById("money").innerHTML = "Result : " +d+ " VND";
+        }else{
+            document.getElementById("money").innerHTML ="Result : "+ d + " USD";
+        }
+// innerHTML:trong HTML bị ẩn
+    }
+</script>
+</body>
+</html>

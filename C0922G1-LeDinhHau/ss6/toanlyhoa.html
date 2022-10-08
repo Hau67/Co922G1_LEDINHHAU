@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>điểm trung bình</h1>
+<input type="number" id="diemToan">diem Toan<br>
+<input type="number" id="diemLy">diem Ly<br>
+<input type="number" id="diemHoa">diem Hoa<br>
+<button onclick="diemtrungbinh()"> kết quả</button>
+
+<h1>C sang F</h1>
+<input type="text" id="doC">do C<br>
+<button onclick="chuyendoi()"> kết quả C sang F</button>
+
+<h1>diện tích hình tròn và chu </h1>
+<input type="number" id="dientich">bán kính<br>
+<button onclick="dientich()">kết quả diện tích</button>
+
+
+<script>
+    function diemtrungbinh () {
+        let toan = parseInt(document.getElementById("diemToan").value);
+        let ly =parseInt( document.getElementById("diemLy").value);
+        let hoa = parseInt(document.getElementById("diemHoa").value);
+        alert("điểm trung bình:"+((toan+ly+hoa)/3));
+        alert("tổng điểm:"+(toan+ly+hoa))
+    }
+    function chuyendoi() {
+        let C= document.getElementById("doC").value;
+        alert(C/5*9+32)
+
+    }
+    function dientich() {
+        let R= document.getElementById("dientich").value;
+        alert("diện tích là:"+ (R*R*3.14))
+        alert("chu vi là:"+ (2*R*3.14))
+    }
+</script>
+</body>
+</html>

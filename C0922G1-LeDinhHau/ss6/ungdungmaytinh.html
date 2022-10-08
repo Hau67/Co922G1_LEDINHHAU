@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+
+<input type="number"id="sothu1">
+<input type="number"id="sothu2">
+    <button onclick="addition()">Addition(+)</button>
+    <button onclick="subtraction()">Subtraction(-)</button>
+    <button onclick="multiplication()">Multiplication(*)</button>
+    <button onclick="division()">Division(/)</button>
+</div>
+<div>
+
+<p id="ketqua"></p>
+
+</div>
+<script>
+    function addition() {
+    let a=document.getElementById("sothu1").value;
+    let b=document.getElementById("sothu2").value;
+    let c =  Number(a) + Number(b) ;
+    document.getElementById("ketqua").innerHTML="Result: " + c;
+    }
+    function subtraction() {
+        let a = document.getElementById("sothu1").value;
+        let b = document.getElementById("sothu2").value;
+        let d = Number(a) - Number(b);
+        document.getElementById("ketqua").innerHTML = "Result: " + d;
+    }
+    function multiplication() {
+        let a = document.getElementById("sothu1").value;
+        let b = document.getElementById("sothu2").value;
+        let e = Number(a) * Number(b);
+        document.getElementById("ketqua").innerHTML = "Result: " + e;
+    }
+    function division() {
+        let a = document.getElementById("sothu1").value;
+        let b = document.getElementById("sothu2").value;
+        let f = Number(a) / Number(b);
+        document.getElementById("ketqua").innerHTML = "Result: " + f;
+    }
+</script>
+</body>
+</html>
