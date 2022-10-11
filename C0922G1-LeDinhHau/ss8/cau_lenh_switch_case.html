@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <h1>kiểm tra số ngày trong tháng</h1>
+    <div>
+        <input type="number" id="nhapthang">
+        <button onclick="ketqua()">Check</button>
+    </div>
+</form>
+<script>
+    function ketqua() {
+        // let thang= parseInt(prompt('nhap thang'));
+        let thang = parseInt(document.getElementById('nhapthang').value);
+        switch (thang) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+                alert("có 31 ngày trong tháng");
+                break;
+            case 2:
+                alert("có 28 hoặc 29 ngày");
+                break;
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                alert("có 30 ngày trong tháng");
+                break;
+            default:
+                alert("nhập không đúng")
+        }
+    }
+</script>
+</body>
+</html>

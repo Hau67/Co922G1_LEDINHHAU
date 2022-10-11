@@ -20,14 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d0a982-4844-42a8-bbfa-e38ddd472726" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss6/chuyendoitiente.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss6/toanlyhoa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss6/ungdungmaytinh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/C0922G1-LeDinhHau.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/C0922G1-LeDinhHau.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss5_from/taoformnangcao.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss5_from/taoformnangcao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7/mode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7/mode2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7/mode3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7/mode4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7/mode5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/Cau_truc_dk_2_bai7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/baiquabong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/cannang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/cau_lenh_switch_case.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/cau_truc_dk_1_bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/cau_truc_dk_1_bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/cau_truc_dk_1_bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/cau_truc_dk_1_bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/cau_truc_dk_1_bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/cau_truc_dk_1_bai9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/cau_truc_dk_2_bai10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/cau_truc_dk_2_bai11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/cau_truc_dk_2_bai12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/cau_truc_dk_2_bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/cau_truc_dk_2_bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/cau_truc_dk_2_bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/cau_truc_dk_2_bai6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +74,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\codegym\module1\C0922G1-LeDinhHau\ss8" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -71,7 +91,13 @@
       <option name="presentableId" value="Default" />
       <updated>1665127636056</updated>
       <workItem from="1665127637511" duration="7189000" />
-      <workItem from="1665201140870" duration="14658000" />
+      <workItem from="1665201140870" duration="15081000" />
+      <workItem from="1665313214002" duration="2410000" />
+      <workItem from="1665365032787" duration="4205000" />
+      <workItem from="1665382831517" duration="12239000" />
+      <workItem from="1665405951538" duration="6600000" />
+      <workItem from="1665450643838" duration="26352000" />
+      <workItem from="1665491034960" duration="1728000" />
     </task>
     <servers />
   </component>
@@ -89,5 +115,19 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="544" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1665313247141">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="544" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1665313247141" />
+    <state x="425" y="185" key="run.anything.popup" timestamp="1665461764161">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1665461764161" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1665471934363">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1665471934363" />
   </component>
 </project>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>DOANH SỐ BÁN HOA HỒNG</h1>
+<input type="number" id="soLuong"/>số lượng bán được<br>
+<button onclick="doanhso()">check</button>
+<p id="ketqua"></P>
+<script>
+    function doanhso() {
+        let banDuoc = +document.getElementById("soLuong").value;
+        if (banDuoc < 5 ) {
+            document.getElementById("ketqua").innerText = 1 + "  hoa hồng" ;
+        } else if (banDuoc <= 10 ) {
+            document.getElementById("ketqua").innerText = 2 + "  hoa hồng" ;
+        } else {
+            document.getElementById("ketqua").innerText = 3 + "  hoa hồng" ;
+        }
+
+    }
+</script>
+</body>
+</html>

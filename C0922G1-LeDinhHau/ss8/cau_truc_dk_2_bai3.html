@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>DIỆN TÍCH HÌNH VUÔNG</h1>
+<input type="number" id="canhVuong"/>nhập số cạnh vuông<br>
+<button onclick="dientich()">Kết quả</button>
+<p id="ketqua"></p>
+<script>
+    function dientich() {
+        let a = +document.getElementById("canhVuong").value;
+        let s = a * a ;
+        if (a > 0) {
+            document.getElementById("ketqua").innerText= "Diện tích là " + s ;
+        } else {
+            document.getElementById("ketqua").innerText= "Phương trình vô nghiệm ";
+        }
+
+    }
+</script>
+</body>
+</html>

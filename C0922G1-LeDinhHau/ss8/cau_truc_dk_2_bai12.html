@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="number" id="soTiengoc"/>số tiền góc<br>
+<input type="number" id="laiSuatthang"/>lãi suất danh nghĩa hằng tháng do ngân hàng quy định<br>
+<input type="number" id="laiVagoc"/>số lần mà tiền lãi được nhập vào tiền gốc trên mỗi tháng<br>
+<input type="number" id="soNamvay"/>số tháng tiền được mượn<br>
+<button onclick="laisuat()">Thành tiền</button>
+<p id="tien"></p>
+<script>
+
+    function laisuat() {
+        let p= +document.getElementById("soTiengoc").value;
+        let r= +document.getElementById("laiSuatthang").value;
+        let n= +document.getElementById("laiVagoc").value;
+        let t= +document.getElementById("soNamvay").value;
+        let a= p * ( 1 + r / n ).toExponential( n * t );
+        alert(a);
+        document.getElementById("tien").innerHTML= "Số tiền phải trả là:" + a + "Đ";
+
+    }
+</script>
+</body>
+</html>

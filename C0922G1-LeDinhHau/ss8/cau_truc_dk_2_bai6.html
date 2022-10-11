@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="number" id="nhapa"/>Nhập a<br>
+<input type="number" id="nhapb"/>Nhập b<br>
+<button onclick="ketqua()">Kết quả</button>
+<p id="dapan"></p>
+<script>
+    function ketqua() {
+        let a = +document.getElementById("nhapa").value;
+        let b = +document.getElementById("nhapb").value;
+        let x = (-b) / a ;
+        if (a == 0 && b == 0) {
+            document.getElementById("dapan").innerText= "Phương trình có vô số nghiệm" ;
+        } else if (a != 0 && b == 0 ) {
+            document.getElementById("dapan").innerText= "phương trình có vô số nghiệm" ;
+        } else if (a == 0 && b != 0) {
+            document.getElementById("dapan").innerText= "Phương trình vô nghiệm " ;
+        } else {
+            document.getElementById("dapan").innerText= "Phương trình có nghiệm là: "   + x ;
+        }
+
+    }
+</script>
+</body>
+</html>

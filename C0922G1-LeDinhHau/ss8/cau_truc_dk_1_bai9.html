@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="number" id="nhapa"/>nhapA<br>
+<input type="number" id="nhapb"/>nhapB<br>
+<input type="number" id="nhapc"/>nhapC<br>
+<button onclick="ketqua()">Check</button>
+<p id="tamGiac"></p>
+<script>
+    function ketqua() {
+        let a = +document.getElementById("nhapa").value;
+        let b = +document.getElementById("nhapb").value;
+        let c = +document.getElementById("nhapc").value;
+        if (a < 0 && b < 0 && c < 0) {
+                document.getElementById("tamGiac").innerText="khong phai tam giac";
+            } else if(a + b < c){
+                document.getElementById("tamGiac").innerText="khong phai tam giac";
+        } else if( b + c < a) {
+            document.getElementById("tamGiac").innerText="khong phai tam giac";
+        } else if( a + c < b) {
+            document.getElementById("tamGiac").innerText="khong phai tam giac";
+        } else {
+            document.getElementById("tamGiac").innerText="la tam giac";
+        }
+
+    }
+</script>
+</body>
+</html>

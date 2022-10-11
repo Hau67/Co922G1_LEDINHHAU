@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="thue"></p>
+<script>
+    let a= +prompt("thu nhập cá nhân");
+    if (a > 10000000) {
+        document.getElementById("thue").innerText="đóng thuế thu nhập cá nhân là: " + a * 10 / 100 ;
+    } else {
+        document.getElementById("thue").innerText="Không đóng thuế";
+    }
+</script>
+</body>
+</html>

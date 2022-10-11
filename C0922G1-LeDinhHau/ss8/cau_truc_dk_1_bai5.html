@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<label for="diemkiemtra">
+    <input type="number" id="diemkiemtra" />bài kiểm tra
+</label><br>
+<label for="diemgiuaki">
+    <input type="number" id="diemgiuaki"/>điểm giữa kỳ
+</label><br>
+<label for="diemcuoiki">
+    <input type="number" id="diemcuoiki"/>điểm cuối kỳ
+</label><br>
+<button onclick="diem()">check</button>
+
+<p id="ketqua"></p>
+<script>
+    function diem() {
+        let kiemTra = +document.getElementById("diemkiemtra").value;
+        let giuaKi = +document.getElementById("diemgiuaki").value;
+        let cuoiKi = +document.getElementById("diemcuoiki").value;
+        let diemTrungbinh= (( kiemTra + giuaKi ) + ( cuoiKi * 2)) / 4;
+        if (diemTrungbinh >= 8) {
+            document.getElementById("ketqua").innerText = diemTrungbinh + " " + "giỏi" ;
+        } else if (diemTrungbinh >= 6.5) {
+            document.getElementById("ketqua").innerText = diemTrungbinh + " " + "khá" ;
+        } else if (diemTrungbinh >= 5) {
+            document.getElementById("ketqua").innerText = diemTrungbinh + "" + "trung bình";
+        } else if (diemTrungbinh >= 3.5) {
+            document.getElementById("ketqua").innerText = diemTrungbinh + " " + "yếu";
+        } else {
+            document.getElementById("ketqua").innerText = diemTrungbinh + " " + "kém" ;
+        }
+    }
+</script>
+</body>
+</html>

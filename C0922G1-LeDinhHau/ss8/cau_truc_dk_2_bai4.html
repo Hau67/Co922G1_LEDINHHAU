@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>DIỆN TÍCH HÌNH CHỮ NHẬT</h1>
+<input type="number" id="chieuDai"/>Chiều dài<br>
+<input type="number" id="chieuRong"/>Chiều rộng<br>
+<button onclick="ketqua()">check</button>
+<p id="dienTich"></p>
+<script>
+    function ketqua() {
+        let a = +document.getElementById("chieuDai").value;
+        let b = +document.getElementById("chieuRong").value;
+        let s = a * b ;
+        if (s > 0 && a > 0 && b > 0) {
+            document.getElementById("dienTich").innerText= "Diện tích hình chữ nhật là  " + s ;
+        } else {
+            document.getElementById("dienTich").innerText="Phương trình vô nghiệm";
+        }
+
+    }
+</script>
+</body>
+</html>

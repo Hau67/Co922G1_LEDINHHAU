@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>DIỆN TÍCH HÌNH TAM GIÁC VUÔNG</h1>
+<input type="number" id="canhThu1"/>Cạnh kề 1<br>
+<input type="number" id="canhThu2"/>Cạnh kề 2<br>
+<button onclick="ketqua()">CHECK</button>
+<p id="dientich"></p>
+<script>
+    function ketqua() {
+        let a = +document.getElementById("canhThu1").value;
+        let b = +document.getElementById("canhThu2").value;
+        let s = a * b / 2 ;
+        if (s > 0 && a > 0 && b > 0) {
+            document.getElementById("dientich").innerText = "Diện tích tam giác cân là " + s ;
+        } else {
+            document.getElementById("dientich").innerText = "Phương trình vô nghiệm";
+        }
+    }
+</script>
+</body>
+</html>
