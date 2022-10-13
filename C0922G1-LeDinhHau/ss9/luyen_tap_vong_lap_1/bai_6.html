@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Tính tổng 30 số chia hết cho 7</h1>
+<script>
+  let a = 0 ;
+  let i = 0 ;
+  let dem = 0;
+  while ( i >= 0 && dem < 30 ) {
+      if ( i % 7 == 0) {
+          a += i;
+          dem++
+          document.write(a + "<br>");
+      }
+      i++ ;
+  }
+  document.writeln(a);
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let i = prompt("nhập nhiệt độ hiện tại");
+
+  while(i){
+      if ( i < 20 ) {
+          alert("nhiệt độ không phù hợp mời bạn tăng nhiệt độ");
+          i = prompt(" mời bạn nhập nhiệt độ");
+      }else if (i > 100) {
+          alert("nhiệt độ không phù hợp mời bạn giảm nhiệt độ")
+          i = prompt(" mời bạn nhập nhiệt độ");
+      }else{
+          alert( " nhiệt độ của bạn là : " + i );
+          i = prompt(" mời bạn nhập nhiệt độ");
+          break;
+      }
+  }
+
+</script>
+</body>
+</html>

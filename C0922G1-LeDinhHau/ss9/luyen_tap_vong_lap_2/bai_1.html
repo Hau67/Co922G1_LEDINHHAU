@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>In dãy fibonacci</h1>
+<script>
+    let a = +prompt("Mời chọn dãy số fibonacci: ")
+    let n1 = 0, n2 = 1, text;
+    document.write(0 + "<br>");
+    document.write(1 + "<br>");
+    for (let i = 1; i <= a - 2 ; i++) {
+        text = n1 + n2;
+        n1 = n2;
+        n2 = text;
+        document.write(text + "<br>");
+    }
+
+</script>
+</body>
+</html>
