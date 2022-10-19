@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4- Viết chương trình khởi tạo/nhập vào một mảng số nguyên và đảo ngược các phần tử trong mảng đó.
+
+    </title>
+</head>
+<body>
+<script>
+  let number= prompt("nhấp số nguyên");
+  let arr= number.split("");
+  let a=0, b = arr.length-1 ;
+  while (a < b) {
+      let i = arr[a];
+      arr[a] = arr[b];
+      arr[b] = i;
+      a++;
+      b--;
+
+
+  }
+  console.log(arr);
+</script>
+</body>
+</html>

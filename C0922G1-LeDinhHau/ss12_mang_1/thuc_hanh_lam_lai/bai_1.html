@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Thực hành] Tạo và thao tác với mảng</title>
+</head>
+<body>
+<p>Sample Screen:</p> <br>
+<input type="text" id="txt">
+<button onclick="add()">Add</button>
+<button onclick="check()">Display</button><br>
+<p id="ketqua"></p>
+
+<script>
+    let x = 0;
+    let array= Array();
+    function add() {
+    array[x] = document.getElementById("txt").value;
+    alert("Giá trị là: " + array[x] + "đơn vị" + x);
+    x++;
+    document.getElementById("txt").value="";
+    }
+    function check() {
+        let e = "<hr/>";
+        for ( let i = 0 ; i < array.length ; i++  ) {
+            e += "đơn vị " + i + " = " + array[i] + "<br>";
+        }
+        document.getElementById("ketqua").innerHTML= e;
+
+    }
+</script>
+</body>
+</html>

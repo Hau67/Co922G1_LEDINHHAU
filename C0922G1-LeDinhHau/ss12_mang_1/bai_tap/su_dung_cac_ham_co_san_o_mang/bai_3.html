@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let chuoi = "aBcCbH";
+    let arrStr = chuoi.split("");
+
+    // alert(arrStr[arrStr.length-1])
+
+    for (let i = arrStr.length - 1; i >= 0; i--) {
+
+        if (arrStr[i] == arrStr[i].toUpperCase()) {
+            alert(arrStr[i] + 'là kí tự hoa');
+            arrStr[i] = arrStr[i].toLowerCase();
+            continue;
+        }
+        if (arrStr[i] == arrStr[i].toLowerCase()) {
+            alert(arrStr[i] + 'là kí tự thường');
+            arrStr[i] = arrStr[i].toUpperCase();
+        }
+    }
+    console.log(arrStr);
+</script>
+</body>
+</html>

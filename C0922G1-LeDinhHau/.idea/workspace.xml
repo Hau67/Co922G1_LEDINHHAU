@@ -20,28 +20,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d0a982-4844-42a8-bbfa-e38ddd472726" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_vong_lap_1/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_vong_lap_1/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_vong_lap_1/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_vong_lap_1/bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_vong_lap_1/bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_vong_lap_1/bai_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_vong_lap_1/bai_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_vong_lap_1/bai_8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_vong_lap_2/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_vong_lap_2/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_vong_lap_2/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_vong_lap_2/bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/mode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/sinh_ban_cuu_chuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/so_nguyen_to.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/su_dung_vong_lap_do_while.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/su_dung_vong_lap_for.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/su_dung_vong_lap_for_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/su_dung_vong_lap_long_nhau.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/su_dung_vong_lap_while.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/su_dung_vong_lap_while_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/bai_tap/su_dung_cac_ham_co_san_o_mang/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/bai_tap/su_dung_cac_ham_co_san_o_mang/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/bai_tap/su_dung_cac_ham_co_san_o_mang/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/bai_tap/tu_dien/tu_dien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/bai_tap_lam_lai/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/bai_tap_lam_lai/luyentap_mang1/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/bai_tap_lam_lai/luyentap_mang1/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/bai_tap_lam_lai/luyentap_mang1/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/bai_tap_lam_lai/luyentap_mang1/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/bai_tap_lam_lai/luyentap_mang1/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/bai_tap_lam_lai/luyentap_mang1/bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/bai_tap_lam_lai/luyentap_mang1/bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/bai_tap_lam_lai/luyentap_mang1/bai_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/bai_tap_lam_lai/luyentap_mang1/bai_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/bai_tap_lam_lai/su_dung_cac_mang/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/thuc_hanh/dame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/thuc_hanh/dao_nguoc_cac_phan_tu_trong_ban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/thuc_hanh/tao_ban_caro_don_gian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/thuc_hanh/tao_va_thap_tac_voi_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/thuc_hanh/tim_gia_tri_lon_nhat_trong_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/thuc_hanh/tim_gia_tri_trong_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/thuc_hanh_lam_lai/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/thuc_hanh_lam_lai/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/thuc_hanh_lam_lai/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_1/thuc_hanh_lam_lai/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9/vong_lap_1_lam_lai/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9/vong_lap_1_lam_lai/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9/vong_lap_1_lam_lai/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9/vong_lap_1_lam_lai/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9/vong_lap_1_lam_lai/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9/vong_lap_1_lam_lai/bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9/vong_lap_1_lam_lai/bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9/vong_lap_2_lam_lai/bai_1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss8/cau_truc_dk_2_bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8/cau_truc_dk_2_bai6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_vong_lap_1/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/luyen_tap_vong_lap_1/bai_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_vong_lap_1/bai_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/luyen_tap_vong_lap_1/bai_8.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,21 +82,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\codegym\module1\C0922G1-LeDinhHau\ss8" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.bai_3.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.bai_8.html">
+    <configuration name="bai_2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0922G1-LeDinhHau/ss12_mang_1/bai_tap/su_dung_cac_ham_co_san_o_mang/bai_2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="bai_3.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0922G1-LeDinhHau/ss9/luyen_tap_vong_lap_2/bai_3.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -91,15 +110,16 @@
     <configuration name="bai_6.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0922G1-LeDinhHau/ss9/luyen_tap_vong_lap_1/bai_6.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="sinh_ban_cuu_chuong.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0922G1-LeDinhHau/ss9/sinh_ban_cuu_chuong.html" useBuiltInWebServerPort="true">
+    <configuration name="bai_8.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0922G1-LeDinhHau/ss12_mang_1/bai_tap_lam_lai/luyentap_mang1/bai_8.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.bai_8.html" />
+        <item itemvalue="JavaScript Debug.bai_2.html" />
         <item itemvalue="JavaScript Debug.bai_3.html (1)" />
         <item itemvalue="JavaScript Debug.bai_6.html" />
         <item itemvalue="JavaScript Debug.bai_3.html" />
-        <item itemvalue="JavaScript Debug.sinh_ban_cuu_chuong.html" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +145,20 @@
       <workItem from="1665539079785" duration="17608000" />
       <workItem from="1665582147168" duration="11261000" />
       <workItem from="1665623156671" duration="21635000" />
-      <workItem from="1665665015313" duration="2111000" />
+      <workItem from="1665665015313" duration="2708000" />
+      <workItem from="1665713508206" duration="12472000" />
+      <workItem from="1665744671131" duration="1005000" />
+      <workItem from="1665835811118" duration="8587000" />
+      <workItem from="1665888888313" duration="1975000" />
+      <workItem from="1665918944911" duration="504000" />
+      <workItem from="1665931240244" duration="5022000" />
+      <workItem from="1665970222450" duration="363000" />
+      <workItem from="1666016445234" duration="598000" />
+      <workItem from="1666021059814" duration="3276000" />
+      <workItem from="1666074325479" duration="11018000" />
+      <workItem from="1666092151626" duration="9278000" />
+      <workItem from="1666142131107" duration="21731000" />
+      <workItem from="1666182810008" duration="5798000" />
     </task>
     <servers />
   </component>
