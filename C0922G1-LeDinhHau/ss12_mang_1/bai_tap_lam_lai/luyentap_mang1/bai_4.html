@@ -8,19 +8,27 @@
 </head>
 <body>
 <script>
+
   let number= prompt("nhấp số nguyên");
   let arr= number.split("");
-  let a=0, b = arr.length-1 ;
-  while (a < b) {
-      let i = arr[a];
-      arr[a] = arr[b];
-      arr[b] = i;
-      a++;
-      b--;
-
-
+  let arrNew = [];
+  for(let i=arr.length-1; i>=0; i--){
+      // arrNew.push(arr[i]);
+      document.writeln(arr[i]);
   }
-  console.log(arr);
+  // document.write(arrNew);
+
+  // let a=0, b = arr.length-1 ;
+  // while (a < b) {
+  //     let i = arr[a];
+  //     arr[a] = arr[b];
+  //     arr[b] = i;
+  //     a++;
+  //     b--;
+  //
+  //
+  // }
+  // console.log(arr);
 </script>
 </body>
 </html>
