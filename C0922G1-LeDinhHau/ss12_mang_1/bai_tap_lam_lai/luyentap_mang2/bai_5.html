@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5: Viết một chương trình nhập vào 2 chuỗi,
+        sau đó kiểm tra xem hai chuỗi có giống nhau hay không.
+
+    </title>
+</head>
+<body>
+<script>
+  let array1=prompt("nhập chuỗi 1");
+  let arr1=array1.split("")
+  let array2=prompt("nhập chuỗi 2");
+  let arr2=array2.split("");
+  let a = true;
+  if (arr1.length === arr2.length){
+      for (let i = 0; i < arr1.length; i++) {
+          if (arr1[i] !== arr2[i]) {
+              a = false;
+          }
+      }
+      if(a=== true){
+          document.write(" hai chuỗi  giống nhau ");
+      }else{
+          document.write(" hai chuỗi không giống nhau ");
+      }
+  }else {
+      document.write(" hai chuỗi không giống nhau ");
+  }
+
+
+
+
+
+  
+
+
+
+</script>
+</body>
+</html>
