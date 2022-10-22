@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Bài 5: Tạo một mảng với bảy phần tử dạng chuỗi có giá trị là tên các ngôi sao sau
+    </title>
+</head>
+<body>
+<script>
+  let array1=["Polaris","Aldebaran","Deneb","Vega","Altair","Dubhe","Regulus"];
+  let array2=["Ursa Minor","Tarurus", "Cygnus", "Lyra","Aquila", "Ursa Major","Leo"];
+  let nhap=prompt("nhap ngoi sao");
+  let dem;
+  function isArray(){
+      for (let i = 0 ; i < array1.length ; i++) {
+            if (array1[i] === nhap ) {
+                dem = i ;
+            }
+       }
+        document.write(array2[dem]);
+  }
+  isArray()
+</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 9: Viết hàm truyền vào một mảng ký tự, và một ký tự bất kỳ,
+      kiểm tra xem ký tự bất kỳ đó có nằm trong mảng không.
+      Nếu có trả về số lần xuất hiện của ký tự đó, nếu không trả về -1.
+
+    </title>
+</head>
+
+<body>
+<script>
+  let array=prompt("nhập kí tự");
+  let array1= array.split("");
+  let array2= prompt("kiểm tra kí tự");
+
+  function characters() {
+      var a=0;
+      for ( let i = 0;i < array1.length; i++) {
+          if (array1[i] === array2 ) {
+             a++;
+          }
+      }
+      if ( a=== 0) {
+          alert("-1");
+      }else {
+          alert(a + " số lần xuất hiện");
+      }
+  }
+  characters();
+</script>
+</body>
+</html>
