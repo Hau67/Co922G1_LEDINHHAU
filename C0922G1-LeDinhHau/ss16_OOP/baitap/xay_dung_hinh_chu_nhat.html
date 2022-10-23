@@ -5,30 +5,35 @@
     <title>Title</title>
 </head>
 <body>
-<canvas id="myCanvas" width="300px" height="200px" style="border: solid green;"></canvas>
+<canvas id="draw" height="500px" width="800px" style="border: 1px solid sienna" ></canvas>
 </body>
 <script>
-    let Rectangular = function (width, height) {
-        this.width = width;
-        this.height = height;
-        this.getArea = function () {
-            return "Area is: " + width * height;
+    class Rectangle {
+        constructor(width,height) {
+            this.width = width;
+            this.height = height;
         }
-        this.getPerimeter = function () {
-            return "Perimeter is: " + (width + height) * 2;
+        getPerimeter(){
+            return  (this.width + this.height ) * 2 ;
         }
-        this.displayRectangular = function () {
-            let c = document.getElementById("myCanvas");
-            let ctx = c.getContext("2d");
+        getArea(){
+            return  this.width * this.height ;
+        }
+        draw() {
+            let ctx = document.getElementById('draw').getContext("2d");
             ctx.beginPath();
-            ctx.rect(0, 0, this.width, this.height);
+            ctx.rect(100,200,this.width,this.height) ;
             ctx.stroke();
         }
+
     }
-    let rectangular = new Rectangular(150, 100);
-    alert(rectangular.getArea());
-    alert(rectangular.getPerimeter());
-    rectangular.displayRectangular();
+    let rectangle1 = new Rectangle();
+    rectangle1.width = + prompt("nhập chiều rộng");
+    rectangle1.height= + prompt("nhập chiều dài");
+    rectangle1.draw();
+    document.write(rectangle1.getPerimeter()+ " là chu vi");
+    document.write(rectangle1.getArea() + " là diện tích");
+
 
 
 </script>

@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d0a982-4844-42a8-bbfa-e38ddd472726" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss15_ham/baitap/demo_so_nguyen_to.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham/baitap/ham_so_nguyen_to.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16_OOP/baitap/xay_dung_hinh_chu_nhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16_OOP/baitap/mô phỏng câu chuyện Adam và Eva.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16_OOP/baitap/xay_dung_lop_mo_ta_temperature.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_ham/baitap/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss16_OOP/baitap/xay_dung_hinh_chu_nhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss16_OOP/baitap/xay_dung_hinh_chu_nhat.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +132,7 @@
       <workItem from="1666347653149" duration="96000" />
       <workItem from="1666353223224" duration="9052000" />
       <workItem from="1666426436650" duration="8862000" />
-      <workItem from="1666497894986" duration="10530000" />
+      <workItem from="1666497894986" duration="20922000" />
     </task>
     <servers />
   </component>
