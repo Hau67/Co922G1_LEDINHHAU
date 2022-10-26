@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let nhap=prompt("nhập " );
+    let arrA=nhap.split("").map(Number);
+    let arrB=[];
+    let sum=0;
+    for (let i= 0; i< arrA.length; i++) {
+    sum += arrA[i];
+        arrB.push(sum);
+
+        arrA[i] = sum;
+    }
+    document.write(arrB);
+</script>
+</body>
+</html>

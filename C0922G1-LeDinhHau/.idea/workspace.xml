@@ -20,10 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d0a982-4844-42a8-bbfa-e38ddd472726" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss16_OOP/baitap/mô phỏng câu chuyện Adam và Eva.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16_OOP/baitap/xay_dung_lop_mo_ta_temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/II/II_bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/II/II_bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/III/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/III/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/III/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/III/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/III/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/III/bai5_lamlai.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapbosung/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapbosung/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapbosung/baitapbosung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ontap/Yêu cầu 2 ( If và switch case)/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16_OOP/baitap/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss16_OOP/baitap/xay_dung_hinh_chu_nhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss16_OOP/baitap/xay_dung_hinh_chu_nhat.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,32 +71,34 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\codegym\module1\C0922G1-LeDinhHau\baitap_module1\III" />
+      <recent name="C:\codegym\module1\C0922G1-LeDinhHau\baitap_module1\II" />
+      <recent name="C:\codegym\module1\C0922G1-LeDinhHau\baitapbosung" />
       <recent name="C:\codegym\module1\C0922G1-LeDinhHau\ss8" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.bai_2.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.bai4.html">
+    <configuration name="bai1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0922G1-LeDinhHau/baitap_module1/III/bai1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="bai3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0922G1-LeDinhHau/baitap_module1/III/bai3.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="bai4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0922G1-LeDinhHau/baitap_module1/III/bai4.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="bai_1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0922G1-LeDinhHau/ss12_mang_1/bai_tap_lam_lai/luyentap_mang2/bai_1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="bai_2.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0922G1-LeDinhHau/ss12_mang_1/bai_tap_lam_lai/luyentap_mang2/bai_2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bai_2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0922G1-LeDinhHau/ss12_mang_1/bai_tap/su_dung_cac_ham_co_san_o_mang/bai_2.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="bai_3.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0922G1-LeDinhHau/ss9/luyen_tap_vong_lap_2/bai_3.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="bai_8.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0922G1-LeDinhHau/ss12_mang_1/bai_tap_lam_lai/luyentap_mang1/bai_8.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.bai4.html" />
+        <item itemvalue="JavaScript Debug.bai3.html" />
         <item itemvalue="JavaScript Debug.bai_2.html (1)" />
         <item itemvalue="JavaScript Debug.bai_1.html" />
-        <item itemvalue="JavaScript Debug.bai_8.html" />
-        <item itemvalue="JavaScript Debug.bai_2.html" />
-        <item itemvalue="JavaScript Debug.bai_3.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +145,12 @@
       <workItem from="1666353223224" duration="9052000" />
       <workItem from="1666426436650" duration="8862000" />
       <workItem from="1666497894986" duration="20922000" />
+      <workItem from="1666576242561" duration="6559000" />
+      <workItem from="1666618259009" duration="632000" />
+      <workItem from="1666662993916" duration="10463000" />
+      <workItem from="1666692069403" duration="4879000" />
+      <workItem from="1666746915523" duration="23341000" />
+      <workItem from="1666781995688" duration="3765000" />
     </task>
     <servers />
   </component>
@@ -149,5 +167,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/baitap_module1/III/bai4.html</url>
+          <line>11</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

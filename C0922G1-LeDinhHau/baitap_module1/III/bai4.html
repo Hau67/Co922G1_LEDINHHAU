@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number=prompt("nhập");
+    let arrnum=number.split("");
+    let arr=[];
+    for (let i = 0 ; i < arrnum.length ; i++) {
+        if ( arrnum[i] === "0" ) {
+            arr.push("không");
+        } else if (arrnum[i] === "1" ) {
+            arr.push("một");
+        }else if (arrnum[i] == '2') {
+            arr.push("hai");
+        }else if (arrnum[i] === "3") {
+            arr.push("ba");
+        }else if (arrnum[i] === "4") {
+            arr.push("bốn");
+        }else if (arrnum[i] === "5") {
+            arr.push("năm");
+        }else if (arrnum[i] === "6") {
+            arr.push("sáu");
+        }else if (arrnum[i] === "7") {
+            arr.push("bảy") ;
+        }else if (arrnum[i] === "8") {
+            arr.push("tám");
+        }else if (arrnum[i] === "9") {
+            arr.push("chín");
+        }
+    }
+    document.write(arr);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="number" id="luong">Tiền lương<br>
+<button onclick="thue()">lương nhận được</button><br>
+<p id="ketqua"></p>
+<script>
+    function thue() {
+        let tinh=document.getElementById("luong").value;
+        if (tinh >= 15000000){
+            document.getElementById("ketqua").innerHTML= tinh-(tinh*20/100);
+        } else if (tinh >= 7000000 ) {
+            document.getElementById("ketqua").innerHTML= tinh-(tinh*10/100);
+        }else {
+            document.getElementById("ketqua").innerHTML= tinh-(tinh*5/100);
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let numberB=[9,7,8,2,5,4,6,3,5,3];
+  let numberA=[7,2,5,3,5,3];
+
+  let numberAB=[];
+  let kiemTra=true;
+  for ( let i = 0 ; i < numberB.length;i++) {
+      for (let j = 0; j < numberA.length; j++) {
+          if ( numberB[i] === numberA[j]) {
+              kiemTra=true;
+              break;
+          } else {
+              kiemTra=false;
+          }
+      }
+      if (kiemTra===false) {
+          numberAB.push(numberB[i]);
+      }
+  }
+  document.write(numberAB);
+</script>
+</body>
+</html>

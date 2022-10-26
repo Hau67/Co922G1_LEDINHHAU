@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr1=prompt("nhập dãy số thứ nhất");
+    let arr11=arr1.split(",").map(Number);
+    let arr2=prompt(" nhập dãy số thứ hai khác 0");
+    let arr22=arr2.split(",").map(Number);
+    let sum;
+    let max=0;
+    let c=0;
+    if ( arr22.length === arr11.length  ) {
+        for (let i = 0; i< arr11.length ; i++) {
+                  sum= arr11[i]/arr22[i];
+                  if ( sum > max){
+                      max = sum;
+                      c = i ;
+                  }
+              }
+                document.write(c);
+    } else {
+        alert("sai");
+    }
+
+
+
+  // let arr1=[5,2,5];
+  // let arr2=[6,3,4];
+  // let sum=0;
+  // let max=0;
+  // let c=0
+  // if (arr1.length == arr2.length) {
+  //   for (let i = 0; i< arr1.length ; i++) {
+  //       sum= arr1[i]/arr2[i];
+  //       if ( sum > max){
+  //           max = sum;
+  //           c = i ;
+  //       }
+  //   }
+  //     document.write(c);
+  //
+  // } else {
+  //     alert("sai");
+  // }
+</script>
+
+</body>
+</html>

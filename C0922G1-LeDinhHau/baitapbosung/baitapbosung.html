@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhập 1 mảng từ bàn phím với độ dài n
+      Hiện thị mảng sau khi thêm mới các phần tử
+      Kiểm tra mảng vừa nhập. Nếu số phần tử chẵn bằng số phần tử lẻ thì hiện thị thông báo "OK",
+      nếu không thoả mãn thì hiện thị "NO"</title>
+</head>
+<body>
+<script>
+    let n = prompt("nhập độ dài n");
+    let arr=[];
+    let soLan;
+    let c=0;
+    let l=0;
+    for ( let i = 0 ; i < n ; i++ ) {
+        soLan= prompt("số lần " + (i+1));
+        arr.push(soLan);
+    }
+        document.write(arr);
+    for (let j = 0 ; j < arr.length ; j++) {
+        if (arr[j] % 2 == 0) {
+            c++;
+        } else {
+            l++;
+        }
+    }
+    if (c % l == 0) {
+        alert("OK");
+    } else {
+        alert("NO");
+    }
+</script>
+</body>
+</html>
