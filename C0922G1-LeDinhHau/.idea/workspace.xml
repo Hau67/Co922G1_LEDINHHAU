@@ -20,20 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d0a982-4844-42a8-bbfa-e38ddd472726" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/baitap_module1/II/II_bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitap_module1/II/II_bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitap_module1/III/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitap_module1/III/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitap_module1/III/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitap_module1/III/bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitap_module1/III/bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitap_module1/III/bai5_lamlai.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapbosung/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapbosung/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapbosung/baitapbosung.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ontap/Yêu cầu 2 ( If và switch case)/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16_OOP/baitap/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/IV/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/IV/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/IV/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/V/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/V/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/V/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ontap/thi/bai1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baitap_module1/III/bai5_lamlai.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitap_module1/III/bai5_lamlai.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +72,11 @@
       <recent name="C:\codegym\module1\C0922G1-LeDinhHau\ss8" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.bai4.html">
-    <configuration name="bai1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0922G1-LeDinhHau/baitap_module1/III/bai1.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.bai2.html">
+    <configuration name="bai1.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0922G1-LeDinhHau/baitap_module1/IV/bai1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="bai2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0922G1-LeDinhHau/baitap_module1/IV/bai2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="bai3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0922G1-LeDinhHau/baitap_module1/III/bai3.html" useBuiltInWebServerPort="true">
@@ -87,18 +85,16 @@
     <configuration name="bai4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0922G1-LeDinhHau/baitap_module1/III/bai4.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bai_1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0922G1-LeDinhHau/ss12_mang_1/bai_tap_lam_lai/luyentap_mang2/bai_1.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="bai_2.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0922G1-LeDinhHau/ss12_mang_1/bai_tap_lam_lai/luyentap_mang2/bai_2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.bai2.html" />
+        <item itemvalue="JavaScript Debug.bai1.html (1)" />
         <item itemvalue="JavaScript Debug.bai4.html" />
         <item itemvalue="JavaScript Debug.bai3.html" />
         <item itemvalue="JavaScript Debug.bai_2.html (1)" />
-        <item itemvalue="JavaScript Debug.bai_1.html" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +146,9 @@
       <workItem from="1666662993916" duration="10463000" />
       <workItem from="1666692069403" duration="4879000" />
       <workItem from="1666746915523" duration="23341000" />
-      <workItem from="1666781995688" duration="3765000" />
+      <workItem from="1666781995688" duration="7718000" />
+      <workItem from="1666833557085" duration="21826000" />
+      <workItem from="1666867952393" duration="9480000" />
     </task>
     <servers />
   </component>

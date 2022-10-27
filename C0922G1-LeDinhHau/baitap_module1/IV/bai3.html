@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3: Cho hai xâu kí tự, tìm số lượng kí tự chung giữa chúng.</title>
+</head>
+<body>
+</body>
+<script>
+  let nhap1=prompt("nhập chuỗi thứ nhất");
+  let nhap2=prompt("nhập chuỗi thứ hai");
+  let arr1=nhap1.split("");
+  let arr2=nhap2.split("");
+  let array=[];
+  for (let i = 0; i < arr1.length; i++) {
+      for (let j = 0; j < arr2.length; j++) {
+          if (arr1[i] === arr2[j] ){
+              array.push(arr1[i]);
+              arr2.splice(arr2[j],1);
+              j--;
+              break;
+          }
+      }
+  }
+  document.write(array);
+</script>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viết một hàm chuẩn hóa xâu ký tự:
+        biến đổi xâu ký tự thành xâu sao cho trong xâu
+        không có 2 dấu cách liền nhau và bắt đầu mỗi từ phải in hoa.</title>
+</head>
+<body>
+
+</body>
+<script>
+    let nhap = prompt("nhập");
+    let arrThuong=nhap.toLocaleLowerCase();
+    let arr= arrThuong.split(" ");
+    console.log(arr)
+    let array=[];
+    // xóa dấu cách
+    // for (let i = 0 ; i < arr.length; i++) {
+    //     if ( arr[i] === " " && arr[i+1] === " ") {
+    //         arr.splice(i+1,1);
+    //         i--;
+    //     }
+    // }
+    for ( let j = 0 ; j < arr.length;j++) {
+        if ( arr[j] !== "") {
+            array[j] = arr[j][0].toUpperCase() + arr[j].slice(1);
+        }
+    }
+    let arrNew=array.join(" ");
+   document.write(arrNew + "<br>");
+   let max = arr[0].length;
+   let indexMax = 0;
+   for ( let i = 1 ; i<  arr.length; i++) {
+        if( arr[i].length > max) {
+            max = arr[i].length;
+            indexMax = i;
+        }
+   }
+
+
+document.write(arr[indexMax])
+</script>
+</html>
