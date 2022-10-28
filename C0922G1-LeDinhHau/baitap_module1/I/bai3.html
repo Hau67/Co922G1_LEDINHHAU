@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+  let a=5;
+  let b=5;
+  for (let i = 1; i <= 5; i++) {
+    for (let j = 1; j <= 9; j++) {
+      if (j >= a && j <= b) {
+        document.write("*");
+      } else {
+        document.write("&nbsp&nbsp");
+      }
+    }
+    a--;
+    b++;
+    document.write("<br>");
+  }
+</script>
+</html>

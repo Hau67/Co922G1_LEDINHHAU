@@ -20,15 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d0a982-4844-42a8-bbfa-e38ddd472726" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/baitap_module1/IV/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitap_module1/IV/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitap_module1/IV/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitap_module1/V/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitap_module1/V/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitap_module1/V/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ontap/thi/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/I/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/I/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/I/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/I/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/I/bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ontap/thi/bai2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitap_module1/III/bai5_lamlai.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitap_module1/III/bai5_lamlai.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +146,7 @@
       <workItem from="1666746915523" duration="23341000" />
       <workItem from="1666781995688" duration="7718000" />
       <workItem from="1666833557085" duration="21826000" />
-      <workItem from="1666867952393" duration="9480000" />
+      <workItem from="1666867952393" duration="16927000" />
     </task>
     <servers />
   </component>
