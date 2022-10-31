@@ -8,4 +8,22 @@
 <body>
 
 </body>
+<script>
+
+    total()
+    function total() {
+        let nhap1 = prompt("nhập dãy số lần 1 ");
+        let arr1 = nhap1.split(",");
+        let nhap2 = prompt("nhập số lần 2 ");
+        let arr2 = nhap2.split(",");
+        let arr=arr1.concat(arr2).map(Number);
+        let sum = 0;
+        for (let i= 0; i< arr.length; i++) {
+            if (arr[i] %2 ==0 ) {
+                sum += arr[i];
+            }
+        }
+        document.write(" tổng của các số chẵn là: " + sum);
+    }
+</script>
 </html>

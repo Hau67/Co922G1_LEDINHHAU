@@ -7,4 +7,29 @@
 <body>
 
 </body>
+<script>
+    function findPrimeNumber() {
+        let nhap1=prompt(" Nhập mảng thứ 1");
+        let nhap2=prompt("Nhập mảng thứ 2");
+        let arr1=nhap1.split(",");
+        let arr2=nhap2.split(",");
+        let arr=[arr1,arr2];
+        let kiemTra=true;
+        for(let i=0;i< arr.length; i++) {
+            for (let j=0; j< arr[i].length;j++) {
+                if (arr[i][j] >= 2) {
+                    for( let u = 2;u <arr[i][j] ; u++) {
+                        if (arr[i][j] % u == 0) {
+                            kiemTra=false;
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+        if ( kiemTra) {
+
+        }
+    }
+</script>
 </html>

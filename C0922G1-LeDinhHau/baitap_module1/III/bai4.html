@@ -6,33 +6,25 @@
 </head>
 <body>
 <script>
-    let number=prompt("nhập");
-    let arrnum=number.split("");
+    let nhap1=prompt("nhập dãy số");
+    let arr1=nhap1.split(",");
+    let arr2=["một","hai","ba","bốn","năm","sáu","bảy","tám","chín","không"];
+    let arr3=["1","2","3","4","5","6","7","8","9","0"];
     let arr=[];
-    for (let i = 0 ; i < arrnum.length ; i++) {
-        if ( arrnum[i] === "0" ) {
-            arr.push("không");
-        } else if (arrnum[i] === "1" ) {
-            arr.push("một");
-        }else if (arrnum[i] == '2') {
-            arr.push("hai");
-        }else if (arrnum[i] === "3") {
-            arr.push("ba");
-        }else if (arrnum[i] === "4") {
-            arr.push("bốn");
-        }else if (arrnum[i] === "5") {
-            arr.push("năm");
-        }else if (arrnum[i] === "6") {
-            arr.push("sáu");
-        }else if (arrnum[i] === "7") {
-            arr.push("bảy") ;
-        }else if (arrnum[i] === "8") {
-            arr.push("tám");
-        }else if (arrnum[i] === "9") {
-            arr.push("chín");
+    for ( let i = 0 ; i < arr1.length; i++) {
+        for (let j = 0 ; j < arr3.length; j++) {
+            if ( arr1[i] === arr3[j]) {
+                for ( let m = 0 ; m< arr2.length;m++) {
+                    if (j === m ) {
+                        arr.push(arr2[m]);
+                    }
+                }
+            }
         }
     }
     document.write(arr);
+
+
 
 </script>
 </body>
