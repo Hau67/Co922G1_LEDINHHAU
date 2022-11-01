@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viết chương trình tách đôi mảng số nguyên ban đầu sang hai mảng,
+      một nửa đầu sang mảng thứ nhất và nửa còn lại sang mảng thứ hai.
+      Sau đó hiển thị hai mảng đó ra màn hình.
+    </title>
+</head>
+<body>
+
+</body>
+<script>
+  let nhap=prompt("nhap một mang tách nhau bằng dấu ,");
+  let arr=nhap.split(",");
+  let arr1=[];
+  let arr2=[];
+  if ( arr.length % 2 ==0) {
+    for (let i = 0 ; i < arr.length/2 ; i++ ) {
+        arr1.push(arr[i]);
+    }
+    for ( let j = (arr.length)/2; j < arr.length ; j++) {
+        arr2.push(arr[j]);
+    }
+    document.write(arr1+"<br>");
+    document.write(arr2+"<br>");
+  } else {
+      nhap=prompt("mời nhập lại");
+  }
+</script>
+</html>

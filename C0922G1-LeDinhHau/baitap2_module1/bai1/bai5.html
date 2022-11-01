@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+  let nhap=prompt("nhập chuỗi");
+  let arr=nhap.split(",");
+  let kiemTra=true;
+  let array=[];
+  for(let i = 0; i< arr.length;i++) {
+    if ( arr[i] > 1) {
+        for (let j=2 ; j< i ; j++ ) {
+            if ( arr[i] % j != 0 ){
+                kiemTra=true;
+
+            } else {
+                kiemTra=false;
+                break;
+            }
+        }
+        if(kiemTra) {
+            array.push(arr[i])
+        }
+    }
+  }
+  document.write(array);
+</script>
+</html>

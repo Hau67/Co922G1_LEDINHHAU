@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> Xổ số CodeGym</h1>
+<p id="hienThi"> </p>
+<div>
+  <input type="number" id="ketQua1" disabled/>
+  <input type="number" id="ketQua2" disabled/>
+  <input type="number" id="ketQua3" disabled/>
+  <input type="number" id="ketQua4" disabled/>
+  <input type="number" id="ketQua5" disabled/>
+  <input type="number" id="ketQua6" disabled/>
+</div>
+<p id="ketQuaVe"></p>
+<div>
+  <button onclick="muaVe()">Mua vé</button>
+  <button onclick="xemKetqua()">Xem Kết quả</button>
+</div>
+</body>
+<script>
+    let tongVe = [];
+  function tuChonVe() {
+      let ve =[];
+    let soThuNhat = prompt("chọn số thứ nhất");
+    if(soThuNhat<0 || soThuNhat>99){
+        soThuNhat = prompt("mời nhập lại số thứ nhất");
+    }else{
+        ve.push(soThuNhat);
+    }
+    let soThuHai = prompt("chọn số thứ hai");
+    if(soThuHai<0 || soThuHai>99){
+          soThuHai = prompt("mời nhập lại số thứ nhất");
+      }else{
+        ve.push(soThuHai);
+      }
+      let soThuBa = prompt("chọn số thứ Ba");
+      if(soThuBa<0 || soThuBa>99){
+          soThuBa = prompt("mời nhập lại số thứ Ba");
+      }else{
+          ve.push(soThuBa);
+      }
+      let soThuTu = prompt("chọn số thứ tư");
+      if(soThuTu<0 || soThuTu>99){
+          soThuTu = prompt("mời nhập lại số thứ tư");
+      }else{
+          ve.push(soThuTu);
+      }
+      let soThuNam = prompt("chọn số thứ năm");
+      if(soThuNam<0 || soThuNam>99){
+          soThuNam = prompt("mời nhập lại số thứ năm");
+      }else{
+          ve.push(soThuNam);
+      }
+      let soThuSau = prompt("chọn số thứ sáu");
+      if(soThuSau<0 || soThuSau>99){
+          soThuSau = prompt("mời nhập lại số thứ sáu");
+      }else{
+          ve.push(soThuSau);
+      }
+      tongVe.push(ve);
+      this.checkOption();
+  }
+  function ranDom(){
+      let ve = [];
+      let soThuNhat = Math.floor(Math.random() * 100);
+      let soThuHai = Math.floor(Math.random() * 100);
+      let soThuBa = Math.floor(Math.random() * 100);
+      let soThuTu = Math.floor(Math.random() * 100);
+      let soThuNam = Math.floor(Math.random() * 100);
+      let soThuSau = Math.floor(Math.random() * 100);
+      ve.push(soThuNhat);
+      ve.push(soThuHai);
+      ve.push(soThuBa);
+      ve.push(soThuTu);
+      ve.push(soThuNam);
+      ve.push(soThuSau);
+      tongVe.push(ve);
+      this.checkOption();
+  }
+  function checkOption(){
+      if(tongVe.length <4){
+          let nhap = prompt("bạn có muốn mua thêm vé"+"<br>"+"1.mua thêm"+ "<br>"+"2.Hủy");
+          if(nhap==1){
+              this.muaVe();
+          }else{
+              for (let i = 0 ; i< tongVe.length; i++){
+                  document.getElementById("hienThi").innerHTML += "Vé thứ "+(i+1)+"của bạn là : " +tongVe[i];
+              }
+          }
+      }else{
+          alert("bạn đã mua đủ số lựong cho phép");
+          for (let i = 0 ; i< tongVe.length; i++){
+              document.getElementById("hienThi").innerHTML += "Vé thứ "+(i+1)+"của bạn là : " +tongVe[i] + "<br>";
+          }
+      }
+  }
+  function muaVe(){
+      let nhap = prompt("mời chọn số" +"<br>" + "1. Bạn muốn tự chọn số "+ "<br>" + "2. random" );
+    if ( nhap == 1 ) {
+        this.tuChonVe();
+    }else if(nhap==2){
+        this.ranDom();
+    }else{
+        alert("mời bạn chọn lại")
+    }
+  }
+  function xemKetqua(){
+
+     let kq1 = document.getElementById("ketQua1").value = Math.floor(Math.random() * 100);
+     let kq2 = document.getElementById("ketQua2").value = Math.floor(Math.random() * 100);
+     let kq3 = document.getElementById("ketQua3").value = Math.floor(Math.random() * 100);
+     let kq4 = document.getElementById("ketQua4").value = Math.floor(Math.random() * 100);
+     let kq5 = document.getElementById("ketQua5").value = Math.floor(Math.random() * 100);
+     let kq6 = document.getElementById("ketQua6").value = Math.floor(Math.random() * 100);
+
+     let ketqua=[kq1,kq2,kq3,kq4,kq5,kq6];
+     for(let i =0 ; i<tongVe.length;i++){
+         let count =0;
+         for(let j=0; j<6; j++){
+             for (let k =0; k<ketqua.length; k++){
+                if(tongVe[i][j]==ketqua[k]){
+                    count++;
+                }
+             }
+         }
+         if (count == 6) {
+             document.getElementById("ketQuaVe").innerHTML += ("Vé thứ " + (i + 1) + " đã trúng giải đặc biệt!" + "<br>");
+         } else if (count == 5) {
+             document.getElementById("ketQuaVe").innerHTML += ("Vé thứ " + (i + 1) + " đã trúng giải nhì!" + "<br>");
+         } else if (count == 3) {
+             document.getElementById("ketQuaVe").innerHTML += ("Vé thứ " + (i + 1) + " đã trúng giải ba!" + "<br>");
+         } else if (count <= 2) {
+             document.getElementById("ketQuaVe").innerHTML += ("Vé của thứ " + (i + 1) + " của bạn không trúng, chúc bạn may mắn lần sau!" + "<br>");
+         }
+     }
+  }
+</script>
+</html>

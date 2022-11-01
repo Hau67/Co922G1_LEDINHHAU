@@ -20,12 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d0a982-4844-42a8-bbfa-e38ddd472726" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/baitap2_module1/bai1/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap2_module1/bai1/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap2_module1/bai1/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap2_module1/bai1/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap2_module1/bai1/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap2_module1/bai1/bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap2_module1/bai1/bai7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap2_module1/bai1/bai8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap2_module1/bai2/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap2_module1/bai3/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap2_module1/bai4/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap2_module1/bai5/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap2_module1/bai6/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/V/bai2.demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/VI/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap_module1/VI/bai2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitap_module1/III/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitap_module1/III/bai3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitap_module1/III/bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitap_module1/III/bai4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitap_module1/IV/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitap_module1/IV/bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitap_module1/V/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitap_module1/V/bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitap_module1/V/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitap_module1/V/bai2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +158,9 @@
       <workItem from="1666833557085" duration="21826000" />
       <workItem from="1666867952393" duration="16927000" />
       <workItem from="1666946491743" duration="2106000" />
-      <workItem from="1667199198944" duration="6670000" />
+      <workItem from="1667199198944" duration="9094000" />
+      <workItem from="1667222725623" duration="12268000" />
+      <workItem from="1667267517122" duration="15676000" />
     </task>
     <servers />
   </component>

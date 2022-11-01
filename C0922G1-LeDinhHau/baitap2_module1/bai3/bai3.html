@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viết chương trình nhập  các phần tử cho mảng sao cho không có phần tử nào trùng nhau.
+    </title>
+</head>
+<body>
+
+</body>
+<script>
+    let nhap=prompt("nhập mảng cách nhau bằng dấu ,");
+    let arr=nhap.split(",");
+    for (let i = 0; i< arr.length;i++) {
+    for (let j = i+1; j < arr.length;j++ ) {
+        if (arr[i]===arr[j]){
+            arr.splice(i,1);
+            i--;
+            break;
+        }
+    }
+    }
+    document.write(arr);
+</script>
+</html>

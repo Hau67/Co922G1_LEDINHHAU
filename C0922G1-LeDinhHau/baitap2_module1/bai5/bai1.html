@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viết chương trình nhập vào một mảng số nguyên và
+      sau đó tách các số chẵn và lẻ trong mảng đó sang hai mảng khác</title>
+</head>
+<body>
+
+</body>
+<script>
+  let nhap=prompt("nhập");
+  let arr=[];
+  for (let m= 0; m< nhap; m++  ) {
+    nhap1=+prompt("phần tử thứ " + (m+1) );
+    arr.push(nhap1);
+  }
+  let arr1=[];
+  let arr2=[];
+  for (let i = 0; i< arr.length;i++) {
+    if (!Number.isInteger(arr[i])) {
+      nhap=prompt("mời nhập lại");
+    }
+  }
+  for (let j = 0 ; j < arr.length;j++) {
+    if (arr[j] %2 ==0 ) {
+      arr1.push(arr[j]);
+    } else {
+      arr2.push(arr[j]);
+    }
+  }
+  document.write("mảng số chẵn là: " + arr1 + "<br>");
+  document.write("mảng số lẽ là: " + arr2);
+</script>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viết chương trình thực hiện các công việc sau:
+      Nhập liệu cho mảng có n phần tử nguyên (n > 0) từ bàn phím.
+      Sau đó tính và in ra màn hình số lượng số nguyên lẻ, số lượng số nguyên chẵn trong mảng đã nhập.
+      Yêu cầu kỹ thuật: Chương trình phải kiểm tra n nhập vào:
+      nếu n <= 0 thì cho nhập lại số phần tử cho đến khi thỏa mãn điều kiện.</title>
+</head>
+<body>
+
+</body>
+<script>
+  let n=prompt("chiều sài phần tử");
+  let arr=[];
+  while (n <=0) {
+    n=prompt("mời nhập lại");
+  }
+  for(let i = 0; i<n ; i++) {
+      let nhap=prompt("nhập số nguyên " + (i+1));
+      if(nhap % 1 == 0) {
+          arr.push(nhap);
+      } else {
+          alert("nhập đã sai mời nhâp lại tại vị trí: " + (i+1) );
+          i--;
+      }
+  }
+  document.write(arr+ "<br>");
+  let c=0;
+  let d=0;
+  for ( let j = 0 ; j < arr.length;j++) {
+      if ( arr[j] % 2==0) {
+          c++;
+      } else {
+          d++;
+      }
+  }
+  document.write("số lượng nguyên tử lẻ là: " + d + "<br>" + "số lượng nguyên tử chẵn là: " + c);
+</script>
+</html>

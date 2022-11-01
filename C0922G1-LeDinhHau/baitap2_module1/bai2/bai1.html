@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+  let n=+prompt("nhập");
+  let arr=[];
+
+  while (n<1 || !Number.isInteger(n)) {
+      n = +prompt("bạn nhập sai mời nhập lại");
+
+  }
+  for (let i = 0 ; i < n; i++) {
+      nhap=prompt("nhập số nguyên");
+      arr.push(nhap);
+  }
+
+  let kiemTra=true
+  for(let i = 0 ; i < (arr.length)/2 ; i++) {
+      if ( arr[i] == arr[(arr.length-1)-i]) {
+          kiemTra=false;
+      } else {
+          document.write(arr+ " không phải dãy số đối");
+      }
+  }
+  if ( kiemTra===false) {
+      document.write(arr + " là dãy số đối");
+  }
+</script>
+</html>
